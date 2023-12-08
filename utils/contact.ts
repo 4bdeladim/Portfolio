@@ -19,7 +19,7 @@ const three: Template = {
 	title: "BenallalDev",
 };
 const four: Template = {
-	link: "https://read.cv/join/michael_andreuzza",
+	link: "https://read.cv/join/abdeladim_benallal",
 	type: "Read CV",
 	title: "Abdeladim Benallal",
 };
