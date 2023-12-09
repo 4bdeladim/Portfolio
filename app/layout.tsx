@@ -1,6 +1,9 @@
+
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import DarkModeSwitcher from '@/components/DarkModeSwitcher';
+import { useEffect } from 'react';
 
 
 const inter = Inter({subsets: ['latin']});
@@ -15,9 +18,11 @@ export default function RootLayout({
 }: { 
   children: React.ReactNode
 }) {
+	
   return (
     <html lang="en">
-      <body className={inter.className}>	
+      <body className={inter.className}>
+				<DarkModeSwitcher />	
 				{children}		
 			</body>
     </html>
